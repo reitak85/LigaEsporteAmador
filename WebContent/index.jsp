@@ -1,0 +1,1 @@
+<%response.sendRedirect("web/pages/futebol.html");%>

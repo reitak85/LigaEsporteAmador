@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+*{
+	margin:0px;
+	padding:0px;	
+}
+img, object, embed, video {
+	max-width:100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+.fluid {
+	clear: both;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	clear: none;
+	float: none;
+}
+
+#principal{
+	margin-left: auto;
+	margin-right: auto;
+	width:78%;
+	height:500px
+}
+
+#div1 {
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#topo{
+	background-color:#8C0000;
+	width:100%;
+	height:10px;
+}
+
+#menuPagesInterno ul{
+	background-color:#8C0000;
+	width:99.9%;
+	height:35px;
+}
+
+#menuPages ul{
+	background-color:#E9E9E9;
+	width:100%;
+	height:35px;
+	font:14px;
+	font-family:Myriad Pro;
+	list-style:none;
+	font-size:16px;
+	padding-top:12px;
+
+}
+#menuPages ul li{
+	display: inline;
+}
+#menuPages ul li a{
+	text-decoration: none;
+	color:#000;
+	padding:0 50px;
+}
+
+#menuPages ul li a:hover{
+	color:#407813;
+}
+#rodape{
+	background-color:#222222;
+	width:100%;
+	height:200px;
+}
+#menuPagesInferior ul{
+	width:100%;
+	height:35px;
+	font:14px;
+	font-family:Myriad Pro;
+	list-style:none;
+	font-size:16px;
+
+}
+#menuPagesInferior ul li{
+	display: inline;
+}
+#menuPagesInferior ul li a{
+	text-decoration: none;
+	color:#FFF;
+	padding:0px 10px;
+}
+
+#menuPagesInferior ul li a:hover{
+	color:#8C0000;
+}
+.zeroMargin_mobile {
+    margin-left: 0;
+}
+
+.hide_mobile {
+    display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+	.gridContainer {
+		width: 90.675%;
+		padding-left: 1.1625%;
+		padding-right: 1.1625%;
+		clear: none;
+		float: none;
+		margin-left: auto;
+	}
+	
+	#principal{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#div1 {
+	}
+	
+	.zeroMargin_tablet {
+		margin-left: 0;
+	}
+	
+	.hide_tablet {
+		display: none;
+	}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+	.gridContainer {
+		margin-left: auto;
+		margin-right: auto;
+		width: 88.5%;
+		max-width: 1232px;
+		padding-left: 0.75%;
+		padding-right: 0.75%;
+		margin: auto;
+		clear: none;
+		float: none;
+		margin-left: auto;
+	}
+	
+	#principal{
+		margin-left: auto;
+		margin-right: auto;
+	    width:78%;
+	}
+
+	#div1 {
+	}
+
+	.zeroMargin_desktop {
+		margin-left: 0;
+	}
+
+	.hide_desktop {
+		display: none;
+	}
+}
