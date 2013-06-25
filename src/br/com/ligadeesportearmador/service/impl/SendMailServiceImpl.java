@@ -17,7 +17,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 import br.com.ligadeesportearmador.exception.MailException;
-import br.com.ligadeesportearmador.model.Mail;
+import br.com.ligadeesportearmador.model.comum.Mail;
 import br.com.ligadeesportearmador.service.SendMailService;
 import br.com.ligadeesportearmador.util.PropertiesLoader;
 import br.com.ligadeesportearmador.util.SimpleAuth;

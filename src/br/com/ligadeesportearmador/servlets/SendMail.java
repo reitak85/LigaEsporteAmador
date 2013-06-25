@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import br.com.ligadeesportearmador.exception.MailException;
-import br.com.ligadeesportearmador.model.Mail;
+import br.com.ligadeesportearmador.model.comum.Mail;
 import br.com.ligadeesportearmador.service.SendMailService;
 import br.com.ligadeesportearmador.service.impl.SendMailServiceImpl;
 

@@ -8,8 +8,8 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 import br.com.ligadeesportearmador.exception.SmsException;
-import br.com.ligadeesportearmador.model.Sms;
-import br.com.ligadeesportearmador.model.Telefone;
+import br.com.ligadeesportearmador.model.comum.Sms;
+import br.com.ligadeesportearmador.model.comum.Telefone;
 import br.com.ligadeesportearmador.service.SendSmsService;
 import br.com.ligadeesportearmador.util.PropertiesLoader;
 
@@ -28,10 +28,9 @@ public class SendSmsServiceImpl implements SendSmsService{
 				urlParameters.append("user="+propsLoader.getContent("user"));
 				urlParameters.append("&password="+propsLoader.getContent("password"));
 
-				if(telefone.getPais() == 55){
-					urlParameters.append("&destinatario="+telefone.getDdd()+telefone.getNumero());
+				if(telefone.getCodigoPais() == 55){
+					urlParameters.append("&destinatario="+telefone.getDdd()+telefone.getFoneCelular());
 				}else{
-					urlParameters.append("&destinatario=+"+telefone.getPais()+telefone.getDdd()+telefone.getNumero());
 				}
 
 				urlParameters.append("&msg="+URLEncoder.encode(sms.getMsg(),"UTF-8"));

@@ -1,6 +1,6 @@
 package br.com.ligadeesportearmador.service;
 
-import br.com.ligadeesportearmador.model.Sms;
+import br.com.ligadeesportearmador.model.comum.Sms;
 
 public interface SendSmsService {
 	
