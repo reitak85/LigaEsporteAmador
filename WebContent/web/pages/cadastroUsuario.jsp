@@ -157,7 +157,7 @@
             			</tr>
             		</table>
             		<div  style="margin-left: 110px; margin-top: 20px; margin-bottom: 30px;">
-	            		<input type="button" id="botao" value="Proxímo"/>
+	            		<input type="button" id="botao" value="Próximo"/>
             		</div>
             	</form>
             </div>
