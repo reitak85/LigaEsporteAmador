@@ -18,14 +18,14 @@ import br.com.ligadeesportearmador.service.impl.SendMailServiceImpl;
 import com.google.gson.Gson;
 
 /**
- * Servlet implementation class SendEmail
+ * Servlet implementation class SendEmail // classe Haberth
  */
 @WebServlet(name="/SendEmail", urlPatterns="/UrlPages/Sendmail")
 public class SendMail extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	private static final Logger logger = Logger.getLogger(SendMail.class);
-    private SendMailService mailService;   
+    private SendMailService mailService;     
     /**
      * @see HttpServlet#HttpServlet()
      */
