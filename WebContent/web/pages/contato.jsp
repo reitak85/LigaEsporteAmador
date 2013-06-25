@@ -81,7 +81,7 @@
 	            		</tr>
 	            		<tr>
 	            			<td style="text-align: right;">
-	            				<label>Comentários: </label>
+	            				<label>Comentários </label>
 	            			</td>
 	            			<td>
 	            				<textarea rows="5" cols="60"></textarea>
