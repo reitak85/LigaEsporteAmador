@@ -1,4 +1,4 @@
-package br.com.ligadeesportearmador.model.comum;
+package br.com.ligadeesportearmador.model.enums;
 
 import java.io.Serializable;
 

@@ -1,7 +1,8 @@
-package br.com.ligadeesportearmador.model.comum;
+package br.com.ligadeesportearmador.model.enums;
 
 import java.io.Serializable;
 import java.util.Date;
+
 
 public class Base implements Serializable{
 	private int id;
