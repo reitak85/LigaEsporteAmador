@@ -1,1 +1,5 @@
-<%response.sendRedirect("web/pages/futebol.html");%>
+<%@page import="br.com.ligadeesportearmador.util.HibernateUtil"%>
+<%
+HibernateUtil.getEntityManagerFactory();
+response.sendRedirect("web/pages/futebol.html");
+%>
