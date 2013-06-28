@@ -99,6 +99,16 @@ img, object, embed, video {
 
 /** Fim do menu de esportes */
 
+
+.btOk{
+	background-image: url("../img/bt-ok.fw.png");
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	border: 0px;
+}
+
+
 /**Inicio Menu Interno*/
 
 #menu2{
@@ -157,6 +167,7 @@ img, object, embed, video {
 #menuPagesInferior ul li a:hover{
 	color:#FF8C00;
 }
+
 .zeroMargin_mobile {
     margin-left: 0;
 }

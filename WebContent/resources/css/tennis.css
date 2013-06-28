@@ -68,6 +68,13 @@ img, object, embed, video {
 	width: 100%;
 }
 
+.btOk{
+	background-image: url("../img/bt-ok.fw.png");
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	border: 0px;
+}
 
 /** Inicio do menu de esportes */
 #menu1{

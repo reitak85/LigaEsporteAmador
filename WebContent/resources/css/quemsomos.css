@@ -197,6 +197,14 @@ img, object, embed, video {
 	border: 0px;
 }
 
+.btOk{
+	background-image: url("../img/bt-ok.fw.png");
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	border: 0px;
+}
+
 .zeroMargin_mobile {
     margin-left: 0;
 }
