@@ -16,40 +16,23 @@
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/respond.min.js"></script>
 </head>
 <body>
 	<div id="topo"></div>
-    <div style="margin-left:200px;">
-    	<img src="${pageContext.request.contextPath}/resources/img/liga.fw.png"/>
-    </div>
-    <div>
-        <img src="${pageContext.request.contextPath}/resources/img/img_topo.fw.png" width="100%" height="60"/>
-    </div>
-    <div id="menuPages">
-    	<ul>
-        	
-        </ul>
-    </div>
+    <c:import url="cabecalho.jsp"></c:import>
     <div class="gridContainer clearfix">
      	<div id="principal">
         	 <div id="div1" >
                 <img src="${pageContext.request.contextPath}/resources/img/volei.fw.png"/>
              </div>
-             <div id="menuPagesInterno">
-             	<ul>
-        	
-        		</ul>
+             <div id="menu2">
+	             <div id="menuPagesInterno">
+	             	<c:import url="menu/menuInterno.jsp"></c:import>
+	             </div>
              </div>
         </div>
     </div>
-    <div id="rodape">
-    	<div id="menuPagesInferior" style="margin-left: 250px;">
-    		<c:import url="menuInfeiror.jsp"></c:import>
-    	</div>
-    	<div>
-    		<img src="${pageContext.request.contextPath}/resources/img/bt-twitter-footer.png"/>
-    	</div>
-    </div>
+    <c:import url="rodape.jsp"></c:import>
 </body>
 </html>

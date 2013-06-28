@@ -16,7 +16,7 @@
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/respond.min.js"></script>
 </head>
 <body>
 	<div id="topo"></div>
