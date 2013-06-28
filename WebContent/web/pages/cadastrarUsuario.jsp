@@ -147,15 +147,24 @@
             				  <font style="margin-left: 17px;">Liga Esporte Amador.</font> 
             				</td>
             			</tr>
-            			<tr>
-            				<td></td>
-            				<td>
-            				  <input type="checkbox" name="termo" id="termo"/>
-            				  <font>Concordo com os<a href="#">Termos de Serviço</a> e Política de<br/></font>
-            				  <font style="margin-left: 17px;">Privacidade da Liga Esporte Amador.</font> 
-            				</td>
-            			</tr>
             		</table>
+            		
+            		<div>
+            			
+            			<textarea readonly="readonly" rows="10" cols="90" style="margin-left:145px; background-color:#FAFAFA; font-size: 14px; font-family: Myriad Pro;">
+            			TERMOS DE LICENÇA DE USO DO APLICATIVO LIGA ESPORTE AMADOR VIA INTERNET
+
+						1. TERMOS DE LICENÇA
+						Estes termos de licença são um acordo entre a Liga Esporte Amador Ltda. 
+						e você. Por favor, leia-os.
+					   
+						</textarea>
+						<br/>
+						<br/>
+						<input type="checkbox" name="termo" id="termo" style="margin-left:145px;"/> 
+            		    <font>*Declaro que li e aceito o termo de uso<br/></font>
+            		</div>
+            		
             		<div  style="margin-left: 110px; margin-top: 20px; margin-bottom: 30px;">
 	            		<input type="button" id="botao" value="Próximo"/>
             		</div>

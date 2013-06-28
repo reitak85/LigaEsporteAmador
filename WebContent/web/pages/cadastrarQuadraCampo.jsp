@@ -229,6 +229,10 @@
 					<div  style="margin-left: 355px; margin-top: 20px; margin-bottom: 30px;">
 	            		<input type="button" id="opener" value="Add Horario" class="botao1"/>
             		</div>
+            		
+            		<div  style="margin-left:auto; margin-bottom:auto; margin-top: 20px; margin-bottom: 30px;">
+	            		<input type="button" id="botao" value="Finalizar"/>
+            		</div>
 					
             	</form>
             	
