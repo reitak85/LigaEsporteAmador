@@ -91,7 +91,7 @@
 		            		<td>
 		            		</td>
 	            			<td>
-	            				<input type="button" id="botao"/>
+	            				<input type="button" value="Enviar" id="botao"/>
 	            			</td>
 	            		</tr>
 	            	</table>

@@ -62,40 +62,80 @@ img, object, embed, video {
 	height:10px;
 }
 
-#menuPagesInterno ul{
-	background-color:#8C0000;
-	width:99.9%;
-	height:35px;
+#menuTopo{
+	background-image: url("../img/img_topo.fw.png");
+	height: 60px;
+	width: 100%;
 }
 
-#menuPages ul{
+
+/** Inicio do menu de esportes */
+#menu1{
 	background-color:#E9E9E9;
 	width:100%;
 	height:35px;
-	font:14px;
+}
+
+#menuEsportes ul{
 	font-family:Myriad Pro;
 	list-style:none;
 	font-size:16px;
-	padding-top:12px;
-
+	margin-left: 17.5%;
+	padding-top: 6px;
 }
-#menuPages ul li{
+
+#menuEsportes ul li{
 	display: inline;
 }
-#menuPages ul li a{
+#menuEsportes ul li a{
 	text-decoration: none;
 	color:#000;
-	padding:0 50px;
+	padding:0% 4.4%;
 }
 
-#menuPages ul li a:hover{
-	color:#407813;
+#menuEsportes ul li a:hover{
+	color:#8C0000;
 }
+
+/** Fim do menu de esportes */
+
+/**Inicio Menu Interno*/
+
+#menu2{
+	background-color:#8C0000;
+	width:99.9%;
+	height:35px;
+	
+}
+
+#menuPagesInterno ul{
+	font-family:Myriad Pro;
+	list-style:none;
+	font-size:16px;
+	padding-top: 6px;
+	padding-left: 15px;
+}
+
+#menuPagesInterno ul li{
+	display: inline;
+}
+#menuPagesInterno ul li a{
+	text-decoration: none;
+	color:#FFF;
+	padding:0px 10px;
+}
+
+#menuPagesInterno ul li a:hover{
+	color:#C3C3C3;
+}
+/**Fim do menu Interno*/
+
 #rodape{
 	background-color:#222222;
 	width:100%;
 	height:200px;
 }
+
 #menuPagesInferior ul{
 	width:100%;
 	height:35px;

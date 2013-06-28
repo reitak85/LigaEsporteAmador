@@ -11,7 +11,7 @@
  		<font style="margin-top: 5px;">© 2012. Todos os direitos reservados.</font>   		
  	</div>
  	<div style="margin-left: 600px; margin-top: -30px;">
- 		<a href="#">
+ 		<a href="https://www.facebook.com/Ligaesporteamador?ref=ts&fref=ts">
  			<img src="${pageContext.request.contextPath}/resources/img/bt-facebook-footer.png"/>
  		</a>   		
  	</div>

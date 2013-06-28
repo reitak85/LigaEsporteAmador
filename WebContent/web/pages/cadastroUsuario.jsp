@@ -36,10 +36,10 @@
              	<font>Cadastrar Usuário</font>
              	
              	<img alt="cadastro de usuario" src="${pageContext.request.contextPath}/resources/img/cad_cinza_02.fw.png"/>
-             	<font>Cadastrar Endereço</font>
-             	
-             	<img alt="cadastro de usuario" src="${pageContext.request.contextPath}/resources/img/cad_cinza_02.fw.png"/>
              	<font>Cadastrar Time</font>
+             	
+             	<img alt="cadastro de usuario" src="${pageContext.request.contextPath}/resources/img/cad_cinza_03.fw.png"/>
+             	<font>Cadastrar Quadra/Campo</font>
              </div>
              <div style="margin-top:20px; font-family: Myriad Pro;">
             	<form>

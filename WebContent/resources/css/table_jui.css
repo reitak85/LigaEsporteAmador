@@ -1,0 +1,29 @@
+table.display {
+	width: 765px;
+	border-spacing: 0px;
+	padding: 0px;
+}
+
+
+table.display thead th {
+	font-weight: normal;
+	background-image: url("../img/table_head.fw.png");
+	background-repeat: no-repeat;	
+	height: 30px;
+	color: #fff;
+}
+
+table.display tfoot th {
+	font-weight: normal;
+	background-image: url("../img/table_head.fw.png");
+	background-repeat: no-repeat;	
+	height: 30px;
+	color: #fff;
+}
+
+table.display td {
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	text-align: center;
+}
