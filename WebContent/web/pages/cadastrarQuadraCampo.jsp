@@ -70,14 +70,14 @@
              	<font>Cadastrar Quadra/Campo</font>
              </div>
              <div style="margin-top:20px; font-family: Myriad Pro;">
-            	<form>
+            	<form action="${pageContext.request.contextPath}/cadastrarQuadraCampo" method="get">
             		<table>
             			<tr>
 	            			<td style="text-align: right;">
 	            				<label>Tipo </label>
 	            			</td>
 	            			<td>
-	            				<select style="font-family: Myriad Pro; width: 150px;">
+	            				<select name="tipo" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="Quadra" value="1">
 	            					<option label="Campo" value="2">
@@ -91,7 +91,7 @@
 	            				<label>Nome Quadra/Campo </label>
 	            			</td>
 	            			<td>
-	            				<input type="text" size="40" maxlength="40"/>
+	            				<input name="nomeQuadra" type="text" size="40" maxlength="40"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -100,7 +100,7 @@
 	            				<label>Cep </label>
 	            			</td>
 	            			<td>
-	            				<input type="text" size="12" maxlength="9"/>
+	            				<input name="cep" type="text" size="12" maxlength="9"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -109,7 +109,7 @@
 	            				<label>Cidade </label>
 	            			</td>
 	            			<td>
-	            				<input type="text" size="30" maxlength="50"/>
+	            				<input name="cidade" type="text" size="30" maxlength="50"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -118,7 +118,7 @@
 	            				<label>Bairro </label>
 	            			</td>
 	            			<td>
-	            				<input type="text" size="40" maxlength="50"/>
+	            				<input name="bairro" type="text" size="40" maxlength="50"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -127,7 +127,7 @@
 	            				<label>Endereço </label>
 	            			</td>
 	            			<td>
-	            				<input type="text" size="53" maxlength="50"/>
+	            				<input name="endereco" type="text" size="53" maxlength="50"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -136,10 +136,10 @@
 	            				<label>Numero </label>
 	            			</td>
 	            			<td >
-	            				<input type="text" size="9" maxlength="100"/>
+	            				<input name="numero" type="text" size="9" maxlength="100"/>
 	            				
 	            				<label style="margin-left: 3px;">Complemento </label>
-	            				<input type="text" size="20" maxlength="40"/>
+	            				<input name="complemento" type="text" size="20" maxlength="40"/>
 	            			</td>
 	            		</tr>
 	            		
@@ -175,7 +175,7 @@
 	            				<label>Observações </label>
 	            			</td>
 	            			<td>
-	            				<textarea rows="5" cols="60"></textarea>
+	            				<textarea name="obs" rows="5" cols="60"></textarea>
 	            			</td>
 	            		</tr>
 	            		
@@ -231,7 +231,7 @@
             		</div>
             		
             		<div  style="margin-left:auto; margin-bottom:auto; margin-top: 20px; margin-bottom: 30px;">
-	            		<input type="button" id="botao" value="Finalizar"/>
+	            		<input type="submit" id="botao" value="Finalizar"/>
             		</div>
 					
             	</form>
