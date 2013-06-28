@@ -228,4 +228,25 @@ img, object, embed, video {
 	.hide_desktop {
 		display: none;
 	}
+	
+	.noticias2-home{ margin-left:20px; float:left;width: 300px;}
+	.noticias2-home .title-noticias{color: #62940d;float: left;font-size: 28px;font-weight: bold;letter-spacing: -1px;margin-top: -30px;text-decoration: none;text-shadow: 1px 1px 1px #FFFFFF;text-transform: uppercase;}
+	.noticias2-home .link-noticias2{float: left;margin-left: 275px; margin-top: -30px;}
+	.noticias2-home .list-noticias2{height: 250px; width:300px; width: 300px; background-color:#ffffff}
+	.noticias2-home .list-noticias2 ul{float: left;margin-left: 10px;margin-right: 10px;}
+	.noticias2-home .list-noticias2 ul li { display:block}
+	.noticias2-home .list-noticias2 ul li .box-noticias2{height: 45px; margin-bottom: 3px;margin-top: 3px;padding: 5px;}
+	.noticias2-home .list-noticias2 ul li .box-noticias2:hover{background:#eeeeee;-webkit-transition:background 0.4s ease-in-out;-moz-transition:background 0.4s ease-in-out;-o-transition:background 0.4s ease-in-out;}
+	.noticias2-home .list-noticias2 ul li .box-noticias2 small {font-size:10px; color:#009af2; font-weight:bold; text-transform:uppercase; text-decoration: none}
+	.noticias2-home .list-noticias2 ul li .box-noticias2 .title-noticias2{ font-size:13px; font-weight:bold; color:#333333; text-decoration:none}
+	.noticias2-home .list-noticias2 ul li .box-noticias2 .title-noticias2:hover{ color:#666666}
+	.noticias2-home .list-noticias2  .separador{border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #eeeeee;margin-left: 5px;width: 270px;}
+	#linha1 .destaque{ width:620px; height:250px;background-color:#fff; float:left;}
+	#linha1 .destaque .img-destaque{ width:300px; padding: 20px;background-color:#333; float:left;}
+	#linha1 .destaque .tit-destaque{ width:260px; height:210px; float:left ; padding:20px 0px}
+	#linha1 .destaque .topico-destaque{color: #00a2ff;font-size: 10px; font-weight:bold;text-decoration: none; text-transform:uppercase;}
+	#linha1 .destaque .tit-destaque h2 a{color: #000000;font-size: 28px;letter-spacing: -1px;line-height: 30px;text-decoration: none;}
+	#linha1 .destaque .tit-destaque h2 a:hover{color:#999999;-webkit-transition:color 0.4s ease-in-out;-moz-transition:color 0.4s ease-in-out;-o-transition:color 0.4s ease-in-out;}
+	#linha1 .destaque .tit-destaque h3 a{ font-size:14px; font-weight:normal;text-decoration:none; color:#999}
+	#linha1 .destaque .tit-destaque h3 a:hover{color:#000000;-webkit-transition:color 0.4s ease-in-out;-moz-transition:color 0.4s ease-in-out;-o-transition:color 0.4s ease-in-out;}
 }
