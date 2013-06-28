@@ -79,69 +79,6 @@
 				</div>
 
 			</div>
-			<div class="noticias2-home">
-
-				<div class="title-noticias">NOTÍCIAS</div>
-
-				<div class="link-noticias2">
-					<a href=""> <img src="/css/img/link.png" width="26" height="25" />
-					</a>
-				</div>
-
-				<div class="list-noticias2">
-
-					<ul>
-
-						<li>
-
-							<div class="box-noticias2">
-
-								<small>JOEL É DO BAHIA!</small><br /> <a href=""
-									class="title-noticias2"> Joel Santana assume o comando do
-									Bahia </a>
-
-							</div>
-
-						</li>
-
-						<li class="separador"></li>
-
-						<li>
-
-							<div class="box-noticias2">
-
-								<small>PONTA PÉ DE BOA SORTE!</small><br /> <a
-									href="/noticia/descalca-presidente-dilma-da-o-1o-chute-e-inaugura-arena-fonte-nova.html"
-									class="title-noticias2">Descalça, presidente Dilma dá o 1º
-									chute e inaugura Arena Fonte Nova</a>
-							</div>
-						</li>
-						<li class="separador"></li>
-						<li>
-							<div class="box-noticias2">
-								<small>GAROTINHA BOA DE BOLA!</small><br /> <a
-									href="/noticia/ganhando-r-150-por-gol-inglesa-de-apenas-10-anos-supera-messi-e-cr7.html"
-									class="title-noticias2">Ganhando R$ 1,50 por gol, inglesa
-									de apenas 10 anos supera Messi e CR7</a>
-							</div>
-						</li>
-						<li class="separador"></li>
-						<li>
-							<div class="box-noticias2">
-
-								<small>ESFORÇO EM NOME DA AMÉRICA!</small><br /> <a href=""
-									class="title-noticias2"> Após quase dez horas de viagem,
-									Grêmio chega à Venezuela </a>
-
-							</div>
-
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<!--Fim Notícias2-->
-
 		</div>
 
 	</div>
