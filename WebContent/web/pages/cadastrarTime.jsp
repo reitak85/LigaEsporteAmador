@@ -70,14 +70,14 @@
              	<font>Cadastrar Quadra/Campo</font>
              </div>
              <div style="margin-top:20px; font-family: Myriad Pro;">
-            	<form>
+            	<form action="${pageContext.request.contextPath}/cadastrarTime" method="get">
             		<table>
             			<tr>
 	            			<td style="text-align: right;">
 	            				<label>Esporte </label>
 	            			</td>
 	            			<td>
-	            				<select style="font-family: Myriad Pro; width: 150px;">
+	            				<select name="esporte" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="Futebol" value="1">
 	            					<option label="Basquete" value="2">
@@ -93,7 +93,7 @@
 	            				<label>Categoria </label>
 	            			</td>
 	            			<td>
-	            				<select style="font-family: Myriad Pro; width: 150px;">
+	            				<select name="categoria" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="Futebol de Campo" value="1">
 	            					<option label="Futebol Society" value="2">
@@ -109,7 +109,7 @@
             					<label>Estado</label>
             				</td>
             				<td>
-            					<select style="font-family: Myriad Pro; width: 150px;">
+            					<select name="estado" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="São Paulo" value="1">
 	            					<option label="Minas Gerais" value="2">
@@ -122,7 +122,7 @@
             					<label>Cidade</label>
             				</td>
             				<td>
-            					<select style="font-family: Myriad Pro; width: 150px;">
+            					<select name="cidade" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="São Paulo" value="1">
 	            					<option label="Caraguatatuba" value="2">
@@ -135,7 +135,7 @@
             					<label>Bairro</label>
             				</td>
             				<td>
-            					<select style="font-family: Myriad Pro; width: 150px;">
+            					<select name="bairro" style="font-family: Myriad Pro; width: 150px;">
 	            					<option label="Selecione..." value="0">
 	            					<option label="São Paulo" value="1">
 	            					<option label="Caraguatatuba" value="2">
@@ -158,7 +158,7 @@
             					<label>Cor do Uniforme</label>
             				</td>
             				<td>
-            					<input type="text" name="nomeTime" id="nomeTime" size="40" maxlength="60"/>
+            					<input type="text" name="corUniforme" id="nomeTime" size="40" maxlength="60"/>
             				</td>
             			</tr>
             			<tr>
@@ -240,7 +240,7 @@
 					
 										
             		<div  style="margin-left:auto; margin-bottom:auto; margin-top: 20px; margin-bottom: 30px;">
-	            		<input type="button" id="botao" value="Próximo"/>
+	            		<input type="submit" id="botao" value="Próximo"/>
             		</div>
             	</form>
             	

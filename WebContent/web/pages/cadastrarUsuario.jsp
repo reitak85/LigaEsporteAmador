@@ -42,7 +42,7 @@
              	<font>Cadastrar Quadra/Campo</font>
              </div>
              <div style="margin-top:20px; font-family: Myriad Pro;">
-            	<form>
+            	<form action="${pageContext.request.contextPath}/cadastrarUsuario" method="get">
             		<table>
             			<tr>
             				<td style="text-align: right;">
@@ -73,7 +73,7 @@
             					<label>Cpf: </label>
             				</td>
             				<td>
-            					<input type="text" name="datanasc" id="datanasc" size="20" maxlength="14"/>
+            					<input type="text" name="cpf" id="cpf" size="20" maxlength="14"/>
             				</td>
             			</tr>
             			
@@ -91,7 +91,7 @@
             					<label>E-mail: </label>
             				</td>
             				<td>
-            					<input type="email" size="40" maxlength="100"/>
+            					<input type="email" name="email" size="40" maxlength="100"/>
             				</td>
             			</tr>
             			
@@ -100,7 +100,7 @@
             					<label>Celular: </label>
             				</td>
             				<td>
-            					<input type="text" size="20" maxlength="20"/>
+            					<input type="text" name="celular" size="20" maxlength="20"/>
             				</td>
             			</tr>
             			
@@ -109,7 +109,7 @@
             					<label>Telefone Residencial: </label>
             				</td>
             				<td>
-            					<input type="text" size="20" maxlength="20"/>
+            					<input type="text" name="telRes" size="20" maxlength="20"/>
             				</td>
             			</tr>
             			
@@ -118,7 +118,7 @@
             					<label>Telefone Comercial: </label>
             				</td>
             				<td>
-            					<input type="text" size="20" maxlength="20"/>
+            					<input type="text" name="telCom" size="20" maxlength="20"/>
             				</td>
             			</tr>
             			
@@ -127,7 +127,7 @@
             					<label>Senha: </label>
             				</td>
             				<td>
-            					<input type="password" size="15" maxlength="10"/>
+            					<input type="password" name="senha" size="15" maxlength="10"/>
             				</td>
             			</tr>
             			
@@ -136,7 +136,7 @@
             					<label>Confirmar Senha: </label>
             				</td>
             				<td>
-            					<input type="password" size="15" maxlength="10"/>
+            					<input type="password" name="confirSenha" size="15" maxlength="10"/>
             				</td>
             			</tr>
             			<tr>
@@ -166,7 +166,7 @@
             		</div>
             		
             		<div  style="margin-left: 110px; margin-top: 20px; margin-bottom: 30px;">
-	            		<input type="button" id="botao" value="Próximo"/>
+	            		<input type="submit" id="botao" value="Próximo"/>
             		</div>
             	</form>
             </div>
